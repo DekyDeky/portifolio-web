@@ -16,3 +16,13 @@ Este repositório está dedicado a hospedar o meu portifólio pessoal de program
 Atualmente este site está em construção! Ainda mais coisas estão por vir e erros podem ocorrer!
 
 Atualmente o site está adaptado apenas para mobile (Para alguns tipos de aparalhos...), mas futuramente todos esses problemas serão resolvidos!
+
+## ⚒️ Composição do site.
+### 🎆 Frameworks e derivados
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+### 📚 Bibliotecas
+- [Motion](https://motion.dev)
+- [TypewriterJS V2](https://github.com/tameemsafi/typewriterjs)
+- [React-Router-Dom](https://www.npmjs.com/package/react-router-dom)
