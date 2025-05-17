@@ -1,0 +1,13 @@
+@use './utils/variables/global.scss';
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+html {
+    background-color: global.$bg-color;
+    font-family: global.$font;
+    color: global.$terminal-green;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,44 @@
+@use '../../utils/variables/global.scss';
+
+.cabecalho {
+
+    height: 150px;
+
+    .cabecalho_titulo {
+
+        display:    flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        color: global.$terminal-green;
+        
+        margin: 15px 0;
+
+        .cabecalho_titulo_texto {
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+
+    .cabecalho_nav {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .cabecalho_nav_item {
+            font-size: 1.5rem;
+            color: black;
+            padding: 0 5px;
+        }
+
+        background-color: global.$terminal-green;
+    }
+}
+
+.selected {
+    background-color: black;
+    color: global.$terminal-green!important;
+}

@@ -1,0 +1,66 @@
+@use '../../utils/variables/global.scss';
+
+.home {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+
+
+    .home_introducao {
+
+        border: 2px solid global.$terminal-green;
+        width: 95%;
+        height: 240px;
+
+        .home_introducao_barra {
+            display: flex;
+            justify-content: space-between;
+            background-color: global.$terminal-green;
+            color: black;
+
+            .home_introducao_barra_titulo {
+                margin-left: 5px;
+            }
+
+            .home_introducao_barra_botoes {
+                display: flex;
+                gap: 5px;
+                margin-right: 5px;
+            }
+        }
+        
+        .home_introducao_texto {
+            font-size: 1.5rem;
+
+            width: 100%;
+
+            display: flex;
+            flex-direction: column;
+
+
+            .welcomeMsg {
+                margin: 10px;
+            }
+
+            .home_button {
+                background: none;
+                font-family: global.$font;
+                color: global.$terminal-green;
+                border: none;
+                font-size: 1.5rem;
+
+                margin: 0 auto;
+
+                padding: 0;
+            }
+
+            .home_button:hover {
+                background-color: global.$terminal-green;
+                color: black;
+            }
+        }
+    }
+}
+
