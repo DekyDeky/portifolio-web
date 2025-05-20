@@ -26,3 +26,5 @@ Atualmente o site está adaptado apenas para mobile (Para alguns tipos de aparal
 - [Motion](https://motion.dev)
 - [TypewriterJS V2](https://github.com/tameemsafi/typewriterjs)
 - [React-Router-Dom](https://www.npmjs.com/package/react-router-dom)
+### 🪛 Outras ferramentas
+- [Braille ASCII Art](https://lachlanarthur.github.io/Braille-ASCII-Art/)
