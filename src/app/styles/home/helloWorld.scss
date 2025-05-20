@@ -1,15 +1,15 @@
-@use '../../utils/variables/global.scss';
+@use '../../../utils/variables/global.scss';
 
 .home {
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5em;
 
 
     .home_introducao {
 
+        margin-top: 5em;
         border: 2px solid global.$terminal-green;
         width: 95%;
         height: 240px;
@@ -54,6 +54,7 @@
                 margin: 0 auto;
 
                 padding: 0;
+                cursor: pointer;
             }
 
             .home_button:hover {

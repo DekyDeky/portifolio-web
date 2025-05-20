@@ -2,18 +2,19 @@
 
 .cabecalho {
 
-    height: 150px;
+    height: global.$header_size;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
     .cabecalho_titulo {
 
-        display:    flex;
+        display:  flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
 
         color: global.$terminal-green;
-        
-        margin: 15px 0;
 
         .cabecalho_titulo_texto {
             font-size: 2rem;

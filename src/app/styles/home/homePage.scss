@@ -1,0 +1,36 @@
+@use '../../../utils/variables/global.scss';
+
+.homePage {
+
+    height: calc(100vh - global.$header_size);
+ 
+    .homePage-Introducao {
+        
+        height: 100%;
+        margin: 0 15px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+        .titulo {
+            font-size: global.$title_size;
+            text-align: center;
+                margin: 15px 0;     
+        }
+        
+        .texto {
+            font-size: global.$text_size;
+            text-align: justify;   
+        }
+        
+        .text-art {
+            font-size: 4px;
+            text-align: center;
+        }
+        
+        
+    }
+}

@@ -1,7 +1,7 @@
 import Typewriter from 'typewriter-effect';
 import { useState } from 'react'
 import { AnimatePresence, motion } from "motion/react";
-import '../../styles/helloWorld.scss'
+import '../../styles/home/helloWorld.scss'
 
 const welcomeMsg = [
     "> Olá! <br>", 
@@ -62,7 +62,7 @@ function HelloWorld({ setShowHome }: props){
                         }}
                         options={{
                             cursor: '_',
-                            delay: 80,
+                            delay: 25,
                             autoStart: true
                         }}/>
                     </div>
@@ -77,7 +77,7 @@ function HelloWorld({ setShowHome }: props){
                                 strings: button[0] + button[1] + button[2],
                                 cursor: '',
                                 autoStart: true,
-                                delay: 80
+                                delay: 25
                             }}/>
                         </button>
                     }
