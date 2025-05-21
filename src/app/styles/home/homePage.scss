@@ -13,6 +13,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        .mikaAscii {
+            padding: 10px;
+        }
         
         
         .titulo {
@@ -23,7 +27,12 @@
         
         .texto {
             font-size: global.$text_size;
-            text-align: justify;   
+            text-align: justify; 
+            tab-size: 3;  
+        }
+
+        .texto:last-child {
+            margin-top: 5px;
         }
         
         .text-art {

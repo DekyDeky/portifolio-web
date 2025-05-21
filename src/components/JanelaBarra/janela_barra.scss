@@ -1,0 +1,15 @@
+@use '../../utils/variables/global.scss';
+
+.janela-barra {
+        display: flex;
+        justify-content: space-between;
+        background-color: global.$terminal-green;
+        color: black;
+
+        padding: 0 5px;
+}
+
+.janela-barra_botoes {
+    display: flex;
+    gap: 8px;
+}
