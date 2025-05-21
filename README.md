@@ -28,3 +28,6 @@ Atualmente o site está adaptado apenas para mobile (Para alguns tipos de aparal
 - [React-Router-Dom](https://www.npmjs.com/package/react-router-dom)
 ### 🪛 Outras ferramentas
 - [Braille ASCII Art](https://lachlanarthur.github.io/Braille-ASCII-Art/)
+
+## Agradecimentos Especiais
+- [Aiden (MordoDraws)](https://www.instagram.com/mordodraws/) - Obrigado por desenhar a Mika!! :D
