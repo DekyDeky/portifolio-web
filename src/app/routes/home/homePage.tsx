@@ -1,4 +1,5 @@
 import { useState, useEffect, use } from 'react';
+import { Navigate, useNavigate } from "react-router";
 import Typewriter from 'typewriter-effect';
 import { motion } from "framer-motion";
 import JanelaBarra from '../../../components/JanelaBarra/janela_barra';
@@ -9,9 +10,15 @@ const Mika = "⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
 function HomePage() {   
 
+    const navigate = useNavigate();
+
     const [mostrarCont, setMostrarCont] = useState(false);
     const [angulo, setAngulo] = useState(0);
     const [tituloTerminou, setTituloTerminou] = useState(false);
+
+    const teste = () => {
+        navigate('/Projetos');
+    }
 
     useEffect (() => {
         const intervalo = setInterval(() => {
@@ -75,6 +82,8 @@ function HomePage() {
                     }}/>
                 }
             </section>
+
+            <button onClick={teste}>Teste</button>
         </main>
     )
 }

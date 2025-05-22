@@ -1,13 +1,14 @@
 import Typewriter from 'typewriter-effect';
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { AnimatePresence, motion } from "motion/react";
+import JanelaBarra from '../../../components/JanelaBarra/janela_barra';
 import '../../styles/home/helloWorld.scss'
 
 const welcomeMsg = [
-    "> Olá! <br>", 
-    "> Eu sou Deky, <br>",
-    "> sou um estudante de programação! <br>",
-    "> Seja bem-vinde a minha base! <br>",
+    "> Inicializando sistemas... <br>", 
+    "> Deky.......................OK <br>",
+    "> Portifolio.................OK <br>",
+    "> Sistema Inicializado! <br>",
     "> "
 ];
 
@@ -21,7 +22,7 @@ type props = {
     setShowHome : (valor: boolean) => void;
 }
 
-function HelloWorld({ setShowHome }: props){
+function HelloWorld({ setShowHome}: props){
 
     const [welcomeTerminou, setWelcomeTerminou] = useState(false);
     const [helloVisibility, sethelloVisibility] = useState(true);
@@ -29,6 +30,7 @@ function HelloWorld({ setShowHome }: props){
     const disableHello = () => {
         sethelloVisibility(false);
         setShowHome(true);
+        document.cookie = "visitou=true"
     }
 
     return <main className='home'>
@@ -43,14 +45,7 @@ function HelloWorld({ setShowHome }: props){
             key="box"
             className='home_introducao'>
 
-                <div className='home_introducao_barra'>
-                    <h1 className='home_introducao_barra_titulo'>Hello_World.exe</h1>
-                    <nav className='home_introducao_barra_botoes'>
-                        <p className='home_introducao_barra_botoes_botao'>_</p>
-                        <p className='home_introducao_barra_botoes_botao'>□</p>
-                        <p className='home_introducao_barra_botoes_botao'>x</p>
-                    </nav>
-                </div>
+                <JanelaBarra guiaNome='hello_world.exe'/>
                 <div className='home_introducao_texto'>
                     <div className='welcomeMsg'>
                         <Typewriter 
